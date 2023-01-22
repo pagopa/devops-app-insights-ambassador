@@ -25,6 +25,7 @@ function pushAvailabilityEvent(client, data) {
 
   if(!valid){
     console.error("Data object don't respect availability attributes")
+    throw new Error("Data object don't respect availability attributes")
   } else {
 
     const avItem = (appInsights.Contracts.AvailabilityTelemetry = {
