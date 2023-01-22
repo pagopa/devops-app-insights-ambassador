@@ -4,6 +4,10 @@ Application Insights Amabassador for docker and kubernetes
 
 ## How to use
 
+### Pre-requisites
+
+1. add this env variable to your terminal `APPLICATIONINSIGHTS_CONNECTION_STRING`, is the applications insights connection string. Without this the app cannot run.
+
 ### App Insights Availability
 
 to push an event into app insight/availability, you can use this endpoint:

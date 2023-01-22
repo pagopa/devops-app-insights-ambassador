@@ -1,5 +1,9 @@
 const express = require("express");
 const app = express();
+
+// Constants
+const PORT = 3000;
+const HOST = '0.0.0.0';
 app.use(express.json());
 
 // Routes
@@ -13,4 +17,6 @@ app.get("/", (req, res) => {
 
 app.use("/availability", availabilityRouter);
 
-app.listen(3000);
+app.listen(PORT, HOST, () => {
+  console.log(`Running on http://${HOST}:${PORT}`);
+});

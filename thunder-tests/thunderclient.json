@@ -8,12 +8,12 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2023-01-22T18:19:30.160Z",
-    "modified": "2023-01-22T18:19:30.160Z",
+    "modified": "2023-01-22T21:21:20.944Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"localhost\",\n  \"message\": \"Questa è una prova\",\n  \"duration\": 100,\n  \"success\": true,\n  \"runLocation\": \"westeurope\"\n}",
+      "raw": "{\n  \"id\": \"123\",\n  \"name\": \"localhost\",\n  \"message\": \"Questa è una prova\",\n  \"duration\": 100,\n  \"success\": true,\n  \"runLocation\": \"westeurope\"\n}",
       "form": []
     },
     "tests": []
