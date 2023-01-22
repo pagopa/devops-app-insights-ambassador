@@ -26,3 +26,7 @@ With this json body (all fields are mandatory):
   "runLocation": "westeurope"
 }
 ```
+
+## Tests
+
+Inside the folder thunder-tests you can find the collection with tests for Thunder extension
