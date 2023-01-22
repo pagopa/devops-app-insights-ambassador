@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "d7827e81-a36f-4054-ade2-36db4c560473",
+    "colId": "c1f6f91b-c276-4f00-b77e-04fa5665212b",
+    "containerId": "",
+    "name": "add-availability",
+    "url": "http://localhost:3000/availability/add",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2023-01-22T18:19:30.160Z",
+    "modified": "2023-01-22T18:19:30.160Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"localhost\",\n  \"message\": \"Questa è una prova\",\n  \"duration\": 100,\n  \"success\": true,\n  \"runLocation\": \"westeurope\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "1a09c4d0-fe15-49bd-9d1e-c025c2438dce",
+    "colId": "c1f6f91b-c276-4f00-b77e-04fa5665212b",
+    "containerId": "",
+    "name": "add-availability-success-fail",
+    "url": "http://localhost:3000/availability/add",
+    "method": "POST",
+    "sortNum": 15000,
+    "created": "2023-01-22T18:19:30.161Z",
+    "modified": "2023-01-22T18:19:30.161Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"id\": \"234\",\n  \"name\": \"localhost\",\n  \"message\": \"Questa è una prova\",\n  \"duration\": 100,\n  \"success\": false,\n  \"runLocation\": \"westeurope\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "8ab87a56-9d16-4f9d-a031-6014770627ce",
+    "colId": "c1f6f91b-c276-4f00-b77e-04fa5665212b",
+    "containerId": "",
+    "name": "add-availability-wrong-attributes",
+    "url": "http://localhost:3000/availability/add",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2023-01-22T18:19:30.162Z",
+    "modified": "2023-01-22T18:19:30.162Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"localhost\",\n  \"message\": \"Questa è una prova\",\n  \"duration\": 100,\n  \"success\": true,\n  \"runLocation\": \"westeurope\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
