@@ -4,6 +4,21 @@
     "colName": "app-insights-ambassador",
     "created": "2023-01-22T18:19:30.158Z",
     "sortNum": 10000,
-    "folders": []
+    "folders": [
+      {
+        "_id": "963707bc-dd50-4f70-a0a8-f839db6573b4",
+        "name": "availability",
+        "containerId": "",
+        "created": "2023-01-25T19:28:37.659Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "f92b9fde-a3a6-4314-89cb-a2df0300b8e3",
+        "name": "status",
+        "containerId": "",
+        "created": "2023-01-25T19:28:49.427Z",
+        "sortNum": 20000
+      }
+    ]
   }
 ]
