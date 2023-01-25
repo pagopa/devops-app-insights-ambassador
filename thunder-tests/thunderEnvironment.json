@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "_id": "f5f6fb5e-e5e6-43f9-9f3c-dae94188b1a0",
+    "name": "localhost",
+    "default": false,
+    "sortNum": 10000,
+    "created": "2023-01-25T23:09:56.956Z",
+    "modified": "2023-01-25T23:09:56.956Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "http://localhost:3000"
+      }
+    ]
+  },
+  {
+    "_id": "029d1f8a-1373-4942-90eb-43e39541128d",
+    "name": "container-app",
+    "default": true,
+    "sortNum": 20000,
+    "created": "2023-01-25T23:10:12.577Z",
+    "modified": "2023-01-25T23:10:12.577Z",
+    "data": [
+      {
+        "name": "host",
+        "value": "https://ambassador-capp.victoriousstone-049c87b3.northeurope.azurecontainerapps.io"
+      }
+    ]
+  }
+]
